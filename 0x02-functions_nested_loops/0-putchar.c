@@ -1,13 +1,16 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - this is the main function
+ * main - Entry point
  *
- * Return - always 0
+ * Return: Always 0 (success)
  */
 
-int main() {
-    char text[] = "_putchar\n";
-    write(1, text, sizeof(text) - 1); // 1 is the file descriptor for stdout
-    return 0;
+int main(void)
+{
+
+printf("_putchar\n");
+
+return (0);
 }
